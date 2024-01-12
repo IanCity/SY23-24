@@ -31,6 +31,7 @@ Partial Class Form1
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -82,7 +83,6 @@ Partial Class Form1
         Me.TextBox49 = New System.Windows.Forms.TextBox()
         Me.TextBox50 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -161,6 +161,12 @@ Partial Class Form1
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
         Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
         Me.SaveToolStripMenuItem.Text = "Save"
+        '
+        'FileToolStripMenuItem1
+        '
+        Me.FileToolStripMenuItem1.Name = "FileToolStripMenuItem1"
+        Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(123, 26)
+        Me.FileToolStripMenuItem1.Text = "File"
         '
         'TextBox1
         '
@@ -571,12 +577,6 @@ Partial Class Form1
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 57
         Me.PictureBox1.TabStop = False
-        '
-        'FileToolStripMenuItem1
-        '
-        Me.FileToolStripMenuItem1.Name = "FileToolStripMenuItem1"
-        Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(123, 26)
-        Me.FileToolStripMenuItem1.Text = "File"
         '
         'OpenFileDialog1
         '

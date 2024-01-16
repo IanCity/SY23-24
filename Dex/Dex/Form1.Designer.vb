@@ -22,21 +22,21 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Field1 = New System.Windows.Forms.Label()
-        Me.Field2 = New System.Windows.Forms.Label()
-        Me.Field3 = New System.Windows.Forms.Label()
-        Me.Field4 = New System.Windows.Forms.Label()
-        Me.Field5 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Field1 = New System.Windows.Forms.TextBox()
+        Me.Field2 = New System.Windows.Forms.TextBox()
+        Me.Field3 = New System.Windows.Forms.TextBox()
+        Me.Field4 = New System.Windows.Forms.TextBox()
+        Me.Field5 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
@@ -88,50 +88,50 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Field1
+        'Label1
         '
-        Me.Field1.AutoSize = True
-        Me.Field1.Location = New System.Drawing.Point(12, 124)
-        Me.Field1.Name = "Field1"
-        Me.Field1.Size = New System.Drawing.Size(49, 20)
-        Me.Field1.TabIndex = 0
-        Me.Field1.Text = "Name"
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 124)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(49, 20)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Name"
         '
-        'Field2
+        'Label2
         '
-        Me.Field2.AutoSize = True
-        Me.Field2.Location = New System.Drawing.Point(12, 165)
-        Me.Field2.Name = "Field2"
-        Me.Field2.Size = New System.Drawing.Size(30, 20)
-        Me.Field2.TabIndex = 1
-        Me.Field2.Text = "Era"
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(12, 165)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(30, 20)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Era"
         '
-        'Field3
+        'Label3
         '
-        Me.Field3.AutoSize = True
-        Me.Field3.Location = New System.Drawing.Point(12, 206)
-        Me.Field3.Name = "Field3"
-        Me.Field3.Size = New System.Drawing.Size(64, 20)
-        Me.Field3.TabIndex = 2
-        Me.Field3.Text = "Weapon"
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(12, 206)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(64, 20)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Weapon"
         '
-        'Field4
+        'Label4
         '
-        Me.Field4.AutoSize = True
-        Me.Field4.Location = New System.Drawing.Point(12, 247)
-        Me.Field4.Name = "Field4"
-        Me.Field4.Size = New System.Drawing.Size(45, 20)
-        Me.Field4.TabIndex = 3
-        Me.Field4.Text = "Force"
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(12, 247)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(45, 20)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Force"
         '
-        'Field5
+        'Label5
         '
-        Me.Field5.AutoSize = True
-        Me.Field5.Location = New System.Drawing.Point(12, 288)
-        Me.Field5.Name = "Field5"
-        Me.Field5.Size = New System.Drawing.Size(56, 20)
-        Me.Field5.TabIndex = 4
-        Me.Field5.Text = "Faction"
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(12, 288)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(56, 20)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "Faction"
         '
         'MenuStrip1
         '
@@ -168,45 +168,45 @@ Partial Class Form1
         Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(123, 26)
         Me.FileToolStripMenuItem1.Text = "File"
         '
-        'TextBox1
+        'Field1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(80, 121)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(141, 27)
-        Me.TextBox1.TabIndex = 7
-        Me.TextBox1.Text = "Luke Skywalker"
+        Me.Field1.Location = New System.Drawing.Point(80, 121)
+        Me.Field1.Name = "Field1"
+        Me.Field1.Size = New System.Drawing.Size(141, 27)
+        Me.Field1.TabIndex = 7
+        Me.Field1.Text = "Luke Skywalker"
         '
-        'TextBox2
+        'Field2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(80, 162)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(141, 27)
-        Me.TextBox2.TabIndex = 8
-        Me.TextBox2.Text = "Empire-First Order"
+        Me.Field2.Location = New System.Drawing.Point(80, 162)
+        Me.Field2.Name = "Field2"
+        Me.Field2.Size = New System.Drawing.Size(141, 27)
+        Me.Field2.TabIndex = 8
+        Me.Field2.Text = "Empire-First Order"
         '
-        'TextBox3
+        'Field3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(80, 203)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(141, 27)
-        Me.TextBox3.TabIndex = 9
-        Me.TextBox3.Text = "Lightsaber(Green)"
+        Me.Field3.Location = New System.Drawing.Point(80, 203)
+        Me.Field3.Name = "Field3"
+        Me.Field3.Size = New System.Drawing.Size(141, 27)
+        Me.Field3.TabIndex = 9
+        Me.Field3.Text = "Lightsaber(Green)"
         '
-        'TextBox4
+        'Field4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(80, 244)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(141, 27)
-        Me.TextBox4.TabIndex = 10
-        Me.TextBox4.Text = "Yes"
+        Me.Field4.Location = New System.Drawing.Point(80, 244)
+        Me.Field4.Name = "Field4"
+        Me.Field4.Size = New System.Drawing.Size(141, 27)
+        Me.Field4.TabIndex = 10
+        Me.Field4.Text = "Yes"
         '
-        'TextBox5
+        'Field5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(80, 285)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(141, 27)
-        Me.TextBox5.TabIndex = 11
-        Me.TextBox5.Text = "Rebellion"
+        Me.Field5.Location = New System.Drawing.Point(80, 285)
+        Me.Field5.Name = "Field5"
+        Me.Field5.Size = New System.Drawing.Size(141, 27)
+        Me.Field5.TabIndex = 11
+        Me.Field5.Text = "Rebellion"
         '
         'TextBox6
         '
@@ -633,16 +633,16 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.TextBox10)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Field5)
         Me.Controls.Add(Me.Field4)
         Me.Controls.Add(Me.Field3)
         Me.Controls.Add(Me.Field2)
         Me.Controls.Add(Me.Field1)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
@@ -655,20 +655,20 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Field1 As Label
-    Friend WithEvents Field2 As Label
-    Friend WithEvents Field3 As Label
-    Friend WithEvents Field4 As Label
-    Friend WithEvents Field5 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NewToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Field1 As TextBox
+    Friend WithEvents Field2 As TextBox
+    Friend WithEvents Field3 As TextBox
+    Friend WithEvents Field4 As TextBox
+    Friend WithEvents Field5 As TextBox
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents TextBox8 As TextBox

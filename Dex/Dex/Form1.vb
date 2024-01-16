@@ -4,11 +4,11 @@
 Public Class Form1
     Dim Records(50) As String
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
-        Field1.Text = ""
-        Field2.Text = ""
-        Field3.Text = ""
-        Field4.Text = ""
-        Field5.Text = ""
+        Label1.Text = ""
+        Label2.Text = ""
+        Label3.Text = ""
+        Label4.Text = ""
+        Label5.Text = ""
     End Sub
 
 
@@ -40,8 +40,20 @@ Public Class Form1
         If IO.File.Exists("Data.txt") Then
             Dim inFile As New IO.StreamReader("Data.txt")
             Records(0) = inFile.ReadLine
-            Records(1) = inFile.ReadLine
             inFile.Close()
+            ShowRecord(0)
+        End If
+    End Sub
+    Public Sub ShowRecord(index As Integer)
+        Dim fields() As String
+        fields = Records(index).Split("|")
+        Field1.Text = fields(0)
+        Field2.Text = fields(1)
+        Field3.Text = fields(2)
+        Field4.Text = fields(3)
+        Field5.Text = fields(4)
+        If File.Exists(fields(5)) Then
+            PictureBox1.Load(fields(5))
         End If
     End Sub
 End Class

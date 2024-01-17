@@ -84,6 +84,10 @@ Partial Class Form1
         Me.TextBox50 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.FirstButton = New System.Windows.Forms.Button()
+        Me.PreviousButton = New System.Windows.Forms.Button()
+        Me.NextButton = New System.Windows.Forms.Button()
+        Me.LastButton = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -91,7 +95,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 124)
+        Me.Label1.Location = New System.Drawing.Point(111, 137)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(49, 20)
         Me.Label1.TabIndex = 0
@@ -100,7 +104,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 165)
+        Me.Label2.Location = New System.Drawing.Point(111, 178)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(30, 20)
         Me.Label2.TabIndex = 1
@@ -109,7 +113,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 206)
+        Me.Label3.Location = New System.Drawing.Point(111, 219)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(64, 20)
         Me.Label3.TabIndex = 2
@@ -118,7 +122,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 247)
+        Me.Label4.Location = New System.Drawing.Point(111, 260)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(45, 20)
         Me.Label4.TabIndex = 3
@@ -127,7 +131,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(12, 288)
+        Me.Label5.Location = New System.Drawing.Point(111, 301)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(56, 20)
         Me.Label5.TabIndex = 4
@@ -139,7 +143,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1609, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1893, 28)
         Me.MenuStrip1.TabIndex = 6
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -170,7 +174,7 @@ Partial Class Form1
         '
         'Field1
         '
-        Me.Field1.Location = New System.Drawing.Point(80, 121)
+        Me.Field1.Location = New System.Drawing.Point(179, 134)
         Me.Field1.Name = "Field1"
         Me.Field1.Size = New System.Drawing.Size(141, 27)
         Me.Field1.TabIndex = 7
@@ -178,7 +182,7 @@ Partial Class Form1
         '
         'Field2
         '
-        Me.Field2.Location = New System.Drawing.Point(80, 162)
+        Me.Field2.Location = New System.Drawing.Point(179, 175)
         Me.Field2.Name = "Field2"
         Me.Field2.Size = New System.Drawing.Size(141, 27)
         Me.Field2.TabIndex = 8
@@ -186,7 +190,7 @@ Partial Class Form1
         '
         'Field3
         '
-        Me.Field3.Location = New System.Drawing.Point(80, 203)
+        Me.Field3.Location = New System.Drawing.Point(179, 216)
         Me.Field3.Name = "Field3"
         Me.Field3.Size = New System.Drawing.Size(141, 27)
         Me.Field3.TabIndex = 9
@@ -194,7 +198,7 @@ Partial Class Form1
         '
         'Field4
         '
-        Me.Field4.Location = New System.Drawing.Point(80, 244)
+        Me.Field4.Location = New System.Drawing.Point(179, 257)
         Me.Field4.Name = "Field4"
         Me.Field4.Size = New System.Drawing.Size(141, 27)
         Me.Field4.TabIndex = 10
@@ -202,7 +206,7 @@ Partial Class Form1
         '
         'Field5
         '
-        Me.Field5.Location = New System.Drawing.Point(80, 285)
+        Me.Field5.Location = New System.Drawing.Point(179, 298)
         Me.Field5.Name = "Field5"
         Me.Field5.Size = New System.Drawing.Size(141, 27)
         Me.Field5.TabIndex = 11
@@ -210,7 +214,7 @@ Partial Class Form1
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(227, 285)
+        Me.TextBox6.Location = New System.Drawing.Point(468, 285)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(141, 27)
         Me.TextBox6.TabIndex = 16
@@ -218,7 +222,7 @@ Partial Class Form1
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(227, 244)
+        Me.TextBox7.Location = New System.Drawing.Point(468, 244)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(141, 27)
         Me.TextBox7.TabIndex = 15
@@ -226,7 +230,7 @@ Partial Class Form1
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(227, 203)
+        Me.TextBox8.Location = New System.Drawing.Point(468, 203)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(141, 27)
         Me.TextBox8.TabIndex = 14
@@ -234,7 +238,7 @@ Partial Class Form1
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(227, 162)
+        Me.TextBox9.Location = New System.Drawing.Point(468, 162)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(141, 27)
         Me.TextBox9.TabIndex = 13
@@ -242,7 +246,7 @@ Partial Class Form1
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(227, 121)
+        Me.TextBox10.Location = New System.Drawing.Point(468, 121)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(141, 27)
         Me.TextBox10.TabIndex = 12
@@ -250,7 +254,7 @@ Partial Class Form1
         '
         'TextBox11
         '
-        Me.TextBox11.Location = New System.Drawing.Point(374, 285)
+        Me.TextBox11.Location = New System.Drawing.Point(615, 285)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(141, 27)
         Me.TextBox11.TabIndex = 21
@@ -258,7 +262,7 @@ Partial Class Form1
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(374, 244)
+        Me.TextBox12.Location = New System.Drawing.Point(615, 244)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(141, 27)
         Me.TextBox12.TabIndex = 20
@@ -266,7 +270,7 @@ Partial Class Form1
         '
         'TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(374, 203)
+        Me.TextBox13.Location = New System.Drawing.Point(615, 203)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(141, 27)
         Me.TextBox13.TabIndex = 19
@@ -274,7 +278,7 @@ Partial Class Form1
         '
         'TextBox14
         '
-        Me.TextBox14.Location = New System.Drawing.Point(374, 162)
+        Me.TextBox14.Location = New System.Drawing.Point(615, 162)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(141, 27)
         Me.TextBox14.TabIndex = 18
@@ -282,7 +286,7 @@ Partial Class Form1
         '
         'TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(374, 121)
+        Me.TextBox15.Location = New System.Drawing.Point(615, 121)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(141, 27)
         Me.TextBox15.TabIndex = 17
@@ -290,7 +294,7 @@ Partial Class Form1
         '
         'TextBox16
         '
-        Me.TextBox16.Location = New System.Drawing.Point(521, 285)
+        Me.TextBox16.Location = New System.Drawing.Point(762, 285)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(141, 27)
         Me.TextBox16.TabIndex = 26
@@ -298,7 +302,7 @@ Partial Class Form1
         '
         'TextBox17
         '
-        Me.TextBox17.Location = New System.Drawing.Point(521, 244)
+        Me.TextBox17.Location = New System.Drawing.Point(762, 244)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(141, 27)
         Me.TextBox17.TabIndex = 25
@@ -306,7 +310,7 @@ Partial Class Form1
         '
         'TextBox18
         '
-        Me.TextBox18.Location = New System.Drawing.Point(521, 203)
+        Me.TextBox18.Location = New System.Drawing.Point(762, 203)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(141, 27)
         Me.TextBox18.TabIndex = 24
@@ -314,7 +318,7 @@ Partial Class Form1
         '
         'TextBox19
         '
-        Me.TextBox19.Location = New System.Drawing.Point(521, 162)
+        Me.TextBox19.Location = New System.Drawing.Point(762, 162)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(141, 27)
         Me.TextBox19.TabIndex = 23
@@ -322,7 +326,7 @@ Partial Class Form1
         '
         'TextBox20
         '
-        Me.TextBox20.Location = New System.Drawing.Point(521, 121)
+        Me.TextBox20.Location = New System.Drawing.Point(762, 121)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(141, 27)
         Me.TextBox20.TabIndex = 22
@@ -330,7 +334,7 @@ Partial Class Form1
         '
         'TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(668, 285)
+        Me.TextBox21.Location = New System.Drawing.Point(909, 285)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(141, 27)
         Me.TextBox21.TabIndex = 31
@@ -338,7 +342,7 @@ Partial Class Form1
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(668, 244)
+        Me.TextBox22.Location = New System.Drawing.Point(909, 244)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(141, 27)
         Me.TextBox22.TabIndex = 30
@@ -346,7 +350,7 @@ Partial Class Form1
         '
         'TextBox23
         '
-        Me.TextBox23.Location = New System.Drawing.Point(668, 203)
+        Me.TextBox23.Location = New System.Drawing.Point(909, 203)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(141, 27)
         Me.TextBox23.TabIndex = 29
@@ -354,7 +358,7 @@ Partial Class Form1
         '
         'TextBox24
         '
-        Me.TextBox24.Location = New System.Drawing.Point(668, 162)
+        Me.TextBox24.Location = New System.Drawing.Point(909, 162)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(141, 27)
         Me.TextBox24.TabIndex = 28
@@ -362,7 +366,7 @@ Partial Class Form1
         '
         'TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(668, 121)
+        Me.TextBox25.Location = New System.Drawing.Point(909, 121)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(141, 27)
         Me.TextBox25.TabIndex = 27
@@ -370,7 +374,7 @@ Partial Class Form1
         '
         'TextBox26
         '
-        Me.TextBox26.Location = New System.Drawing.Point(815, 285)
+        Me.TextBox26.Location = New System.Drawing.Point(1056, 285)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.Size = New System.Drawing.Size(141, 27)
         Me.TextBox26.TabIndex = 36
@@ -378,7 +382,7 @@ Partial Class Form1
         '
         'TextBox27
         '
-        Me.TextBox27.Location = New System.Drawing.Point(815, 244)
+        Me.TextBox27.Location = New System.Drawing.Point(1056, 244)
         Me.TextBox27.Name = "TextBox27"
         Me.TextBox27.Size = New System.Drawing.Size(141, 27)
         Me.TextBox27.TabIndex = 35
@@ -386,7 +390,7 @@ Partial Class Form1
         '
         'TextBox28
         '
-        Me.TextBox28.Location = New System.Drawing.Point(815, 203)
+        Me.TextBox28.Location = New System.Drawing.Point(1056, 203)
         Me.TextBox28.Name = "TextBox28"
         Me.TextBox28.Size = New System.Drawing.Size(141, 27)
         Me.TextBox28.TabIndex = 34
@@ -394,7 +398,7 @@ Partial Class Form1
         '
         'TextBox29
         '
-        Me.TextBox29.Location = New System.Drawing.Point(815, 162)
+        Me.TextBox29.Location = New System.Drawing.Point(1056, 162)
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.Size = New System.Drawing.Size(141, 27)
         Me.TextBox29.TabIndex = 33
@@ -402,7 +406,7 @@ Partial Class Form1
         '
         'TextBox30
         '
-        Me.TextBox30.Location = New System.Drawing.Point(815, 121)
+        Me.TextBox30.Location = New System.Drawing.Point(1056, 121)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(141, 27)
         Me.TextBox30.TabIndex = 32
@@ -410,7 +414,7 @@ Partial Class Form1
         '
         'TextBox31
         '
-        Me.TextBox31.Location = New System.Drawing.Point(962, 285)
+        Me.TextBox31.Location = New System.Drawing.Point(1203, 285)
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New System.Drawing.Size(141, 27)
         Me.TextBox31.TabIndex = 41
@@ -418,7 +422,7 @@ Partial Class Form1
         '
         'TextBox32
         '
-        Me.TextBox32.Location = New System.Drawing.Point(962, 244)
+        Me.TextBox32.Location = New System.Drawing.Point(1203, 244)
         Me.TextBox32.Name = "TextBox32"
         Me.TextBox32.Size = New System.Drawing.Size(141, 27)
         Me.TextBox32.TabIndex = 40
@@ -426,7 +430,7 @@ Partial Class Form1
         '
         'TextBox33
         '
-        Me.TextBox33.Location = New System.Drawing.Point(962, 203)
+        Me.TextBox33.Location = New System.Drawing.Point(1203, 203)
         Me.TextBox33.Name = "TextBox33"
         Me.TextBox33.Size = New System.Drawing.Size(141, 27)
         Me.TextBox33.TabIndex = 39
@@ -434,7 +438,7 @@ Partial Class Form1
         '
         'TextBox34
         '
-        Me.TextBox34.Location = New System.Drawing.Point(962, 162)
+        Me.TextBox34.Location = New System.Drawing.Point(1203, 162)
         Me.TextBox34.Name = "TextBox34"
         Me.TextBox34.Size = New System.Drawing.Size(141, 27)
         Me.TextBox34.TabIndex = 38
@@ -442,7 +446,7 @@ Partial Class Form1
         '
         'TextBox35
         '
-        Me.TextBox35.Location = New System.Drawing.Point(962, 121)
+        Me.TextBox35.Location = New System.Drawing.Point(1203, 121)
         Me.TextBox35.Name = "TextBox35"
         Me.TextBox35.Size = New System.Drawing.Size(141, 27)
         Me.TextBox35.TabIndex = 37
@@ -450,7 +454,7 @@ Partial Class Form1
         '
         'TextBox36
         '
-        Me.TextBox36.Location = New System.Drawing.Point(1109, 285)
+        Me.TextBox36.Location = New System.Drawing.Point(1350, 285)
         Me.TextBox36.Name = "TextBox36"
         Me.TextBox36.Size = New System.Drawing.Size(141, 27)
         Me.TextBox36.TabIndex = 46
@@ -458,7 +462,7 @@ Partial Class Form1
         '
         'TextBox37
         '
-        Me.TextBox37.Location = New System.Drawing.Point(1109, 244)
+        Me.TextBox37.Location = New System.Drawing.Point(1350, 244)
         Me.TextBox37.Name = "TextBox37"
         Me.TextBox37.Size = New System.Drawing.Size(141, 27)
         Me.TextBox37.TabIndex = 45
@@ -466,7 +470,7 @@ Partial Class Form1
         '
         'TextBox38
         '
-        Me.TextBox38.Location = New System.Drawing.Point(1109, 203)
+        Me.TextBox38.Location = New System.Drawing.Point(1350, 203)
         Me.TextBox38.Name = "TextBox38"
         Me.TextBox38.Size = New System.Drawing.Size(141, 27)
         Me.TextBox38.TabIndex = 44
@@ -474,7 +478,7 @@ Partial Class Form1
         '
         'TextBox39
         '
-        Me.TextBox39.Location = New System.Drawing.Point(1109, 162)
+        Me.TextBox39.Location = New System.Drawing.Point(1350, 162)
         Me.TextBox39.Name = "TextBox39"
         Me.TextBox39.Size = New System.Drawing.Size(141, 27)
         Me.TextBox39.TabIndex = 43
@@ -482,7 +486,7 @@ Partial Class Form1
         '
         'TextBox40
         '
-        Me.TextBox40.Location = New System.Drawing.Point(1109, 121)
+        Me.TextBox40.Location = New System.Drawing.Point(1350, 121)
         Me.TextBox40.Name = "TextBox40"
         Me.TextBox40.Size = New System.Drawing.Size(141, 27)
         Me.TextBox40.TabIndex = 42
@@ -490,7 +494,7 @@ Partial Class Form1
         '
         'TextBox41
         '
-        Me.TextBox41.Location = New System.Drawing.Point(1256, 285)
+        Me.TextBox41.Location = New System.Drawing.Point(1497, 285)
         Me.TextBox41.Name = "TextBox41"
         Me.TextBox41.Size = New System.Drawing.Size(141, 27)
         Me.TextBox41.TabIndex = 51
@@ -498,7 +502,7 @@ Partial Class Form1
         '
         'TextBox42
         '
-        Me.TextBox42.Location = New System.Drawing.Point(1256, 244)
+        Me.TextBox42.Location = New System.Drawing.Point(1497, 244)
         Me.TextBox42.Name = "TextBox42"
         Me.TextBox42.Size = New System.Drawing.Size(141, 27)
         Me.TextBox42.TabIndex = 50
@@ -506,7 +510,7 @@ Partial Class Form1
         '
         'TextBox43
         '
-        Me.TextBox43.Location = New System.Drawing.Point(1256, 203)
+        Me.TextBox43.Location = New System.Drawing.Point(1497, 203)
         Me.TextBox43.Name = "TextBox43"
         Me.TextBox43.Size = New System.Drawing.Size(141, 27)
         Me.TextBox43.TabIndex = 49
@@ -514,7 +518,7 @@ Partial Class Form1
         '
         'TextBox44
         '
-        Me.TextBox44.Location = New System.Drawing.Point(1256, 162)
+        Me.TextBox44.Location = New System.Drawing.Point(1497, 162)
         Me.TextBox44.Name = "TextBox44"
         Me.TextBox44.Size = New System.Drawing.Size(141, 27)
         Me.TextBox44.TabIndex = 48
@@ -522,7 +526,7 @@ Partial Class Form1
         '
         'TextBox45
         '
-        Me.TextBox45.Location = New System.Drawing.Point(1256, 121)
+        Me.TextBox45.Location = New System.Drawing.Point(1497, 121)
         Me.TextBox45.Name = "TextBox45"
         Me.TextBox45.Size = New System.Drawing.Size(141, 27)
         Me.TextBox45.TabIndex = 47
@@ -530,7 +534,7 @@ Partial Class Form1
         '
         'TextBox46
         '
-        Me.TextBox46.Location = New System.Drawing.Point(1403, 285)
+        Me.TextBox46.Location = New System.Drawing.Point(1644, 285)
         Me.TextBox46.Name = "TextBox46"
         Me.TextBox46.Size = New System.Drawing.Size(141, 27)
         Me.TextBox46.TabIndex = 56
@@ -538,7 +542,7 @@ Partial Class Form1
         '
         'TextBox47
         '
-        Me.TextBox47.Location = New System.Drawing.Point(1403, 244)
+        Me.TextBox47.Location = New System.Drawing.Point(1644, 244)
         Me.TextBox47.Name = "TextBox47"
         Me.TextBox47.Size = New System.Drawing.Size(141, 27)
         Me.TextBox47.TabIndex = 55
@@ -546,7 +550,7 @@ Partial Class Form1
         '
         'TextBox48
         '
-        Me.TextBox48.Location = New System.Drawing.Point(1403, 203)
+        Me.TextBox48.Location = New System.Drawing.Point(1644, 203)
         Me.TextBox48.Name = "TextBox48"
         Me.TextBox48.Size = New System.Drawing.Size(141, 27)
         Me.TextBox48.TabIndex = 54
@@ -554,7 +558,7 @@ Partial Class Form1
         '
         'TextBox49
         '
-        Me.TextBox49.Location = New System.Drawing.Point(1403, 162)
+        Me.TextBox49.Location = New System.Drawing.Point(1644, 162)
         Me.TextBox49.Name = "TextBox49"
         Me.TextBox49.Size = New System.Drawing.Size(141, 27)
         Me.TextBox49.TabIndex = 53
@@ -562,7 +566,7 @@ Partial Class Form1
         '
         'TextBox50
         '
-        Me.TextBox50.Location = New System.Drawing.Point(1403, 121)
+        Me.TextBox50.Location = New System.Drawing.Point(1644, 121)
         Me.TextBox50.Name = "TextBox50"
         Me.TextBox50.Size = New System.Drawing.Size(141, 27)
         Me.TextBox50.TabIndex = 52
@@ -571,7 +575,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(111, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(139, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(153, 96)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -582,11 +586,51 @@ Partial Class Form1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'FirstButton
+        '
+        Me.FirstButton.Location = New System.Drawing.Point(27, 336)
+        Me.FirstButton.Name = "FirstButton"
+        Me.FirstButton.Size = New System.Drawing.Size(94, 29)
+        Me.FirstButton.TabIndex = 58
+        Me.FirstButton.Text = "First"
+        Me.FirstButton.UseVisualStyleBackColor = True
+        '
+        'PreviousButton
+        '
+        Me.PreviousButton.Location = New System.Drawing.Point(127, 336)
+        Me.PreviousButton.Name = "PreviousButton"
+        Me.PreviousButton.Size = New System.Drawing.Size(94, 29)
+        Me.PreviousButton.TabIndex = 59
+        Me.PreviousButton.Text = "Previous"
+        Me.PreviousButton.UseVisualStyleBackColor = True
+        '
+        'NextButton
+        '
+        Me.NextButton.Location = New System.Drawing.Point(227, 336)
+        Me.NextButton.Name = "NextButton"
+        Me.NextButton.Size = New System.Drawing.Size(94, 29)
+        Me.NextButton.TabIndex = 60
+        Me.NextButton.Text = "Next"
+        Me.NextButton.UseVisualStyleBackColor = True
+        '
+        'LastButton
+        '
+        Me.LastButton.Location = New System.Drawing.Point(327, 336)
+        Me.LastButton.Name = "LastButton"
+        Me.LastButton.Size = New System.Drawing.Size(94, 29)
+        Me.LastButton.TabIndex = 61
+        Me.LastButton.Text = "Last"
+        Me.LastButton.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1609, 412)
+        Me.ClientSize = New System.Drawing.Size(1893, 412)
+        Me.Controls.Add(Me.LastButton)
+        Me.Controls.Add(Me.NextButton)
+        Me.Controls.Add(Me.PreviousButton)
+        Me.Controls.Add(Me.FirstButton)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TextBox46)
         Me.Controls.Add(Me.TextBox47)
@@ -717,4 +761,8 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents FileToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents FirstButton As Button
+    Friend WithEvents PreviousButton As Button
+    Friend WithEvents NextButton As Button
+    Friend WithEvents LastButton As Button
 End Class

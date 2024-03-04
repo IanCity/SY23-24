@@ -43,6 +43,14 @@
     End Sub
 
     Private Sub tmrGameLogic_Tick(sender As System.Object, e As System.EventArgs) Handles tmrGameLogic.Tick
+        If PicPlayer.Bounds.IntersectsWith(PicGround.Bounds) Then
+            tmrGravity.Stop()
+        Else
+            If isJumping = False Then
+                tmrGravity.Start()
+            End If
+        End If
+
         If PicPlayer.Bounds.IntersectsWith(PicAir.Bounds) Then
             If isJumping = False Then
                 tmrGravity.Start()
@@ -58,9 +66,18 @@
                         tmrGravity.Stop()
                     End If
                 End If
+                If b.Tag = "restart" Then
+                    If PicPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                        PicPlayer.Location = New Point(12, 300)
+                    End If
+                End If
+                If b.Tag = "coin" Then
+                    If PicPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                        b.Visible = False
+                    End If
+                End If
             End If
         Next
-
     End Sub
 
     Private Sub tmrGravity_Tick(sender As System.Object, e As System.EventArgs) Handles tmrGravity.Tick

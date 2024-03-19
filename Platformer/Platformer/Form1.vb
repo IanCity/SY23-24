@@ -1,8 +1,9 @@
 ﻿Public Class frm2DPlatformer
     Dim moveSpeed As Integer = 15
     Dim isJumping As Boolean
+    Dim score As Integer
 
-    Private Sub frm2DPlatformer_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
+    Private Sub frm2DPlatformer_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles Start.KeyDown
         Select Case e.KeyCode
             Case Keys.Right
                 tmrRight.Start()
@@ -18,7 +19,7 @@
         PicPlayer.Left += moveSpeed
     End Sub
 
-    Private Sub frm2DPlatformer_KeyUp(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyUp
+    Private Sub frm2DPlatformer_KeyUp(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles Start.KeyUp
         Select Case e.KeyCode
             Case Keys.Right
                 tmrRight.Stop()
@@ -69,11 +70,22 @@
                 If b.Tag = "restart" Then
                     If PicPlayer.Bounds.IntersectsWith(b.Bounds) Then
                         PicPlayer.Location = New Point(12, 300)
+                        score = score - 1
+                        Label1.Text = score
+                    End If
+                End If
+                If b.Tag = "finish" Then
+                    If b.Visible And PicPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                        Label3.Visible = True
+                        PicPlayer.Visible = False
+                        ReButton.Visible = True
                     End If
                 End If
                 If b.Tag = "coin" Then
-                    If PicPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                    If b.Visible And PicPlayer.Bounds.IntersectsWith(b.Bounds) Then
                         b.Visible = False
+                        score += 1
+                        Label1.Text = score
                     End If
                 End If
             End If
@@ -82,5 +94,18 @@
 
     Private Sub tmrGravity_Tick(sender As System.Object, e As System.EventArgs) Handles tmrGravity.Tick
         PicPlayer.Top += moveSpeed
+    End Sub
+
+    Private Sub ReButton_Click(sender As Object, e As EventArgs) Handles ReButton.Click
+        PicPlayer.Visible = True
+        PicPlayer.Location = New Point(12, 300)
+        Label3.Visible = False
+        ReButton.Visible = False
+        PictureBox10.Visible = True
+        PictureBox11.Visible = True
+        PictureBox7.Visible = True
+        PictureBox16.Visible = True
+        score = 0
+        Label1.Text = "0"
     End Sub
 End Class

@@ -1,4 +1,4 @@
-﻿Public Class About_Us
+Public Class About_Us
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
 
     End Sub

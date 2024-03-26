@@ -79,6 +79,12 @@
     <Compile Include="About Us.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Contact Us.Designer.vb">
+      <DependentUpon>Contact Us.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Home.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
   <ItemGroup>
     <EmbeddedResource Include="About Us.resx">
       <DependentUpon>About Us.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact Us.resx">
+      <DependentUpon>Contact Us.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
@@ -133,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

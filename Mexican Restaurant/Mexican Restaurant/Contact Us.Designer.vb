@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Contact_Us
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,10 +20,9 @@ Partial Class Contact_Us
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ContactBut = New System.Windows.Forms.Button()
         Me.AboutBut = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -32,6 +31,7 @@ Partial Class Contact_Us
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.MenuBut = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,17 +49,6 @@ Partial Class Contact_Us
         Me.Label3.TabIndex = 20
         Me.Label3.Text = "Contact Taco Casa"
         '
-        'ContactBut
-        '
-        Me.ContactBut.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ContactBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ContactBut.Location = New System.Drawing.Point(191, 131)
-        Me.ContactBut.Name = "ContactBut"
-        Me.ContactBut.Size = New System.Drawing.Size(84, 23)
-        Me.ContactBut.TabIndex = 19
-        Me.ContactBut.Text = "Contact Us"
-        Me.ContactBut.UseVisualStyleBackColor = False
-        '
         'AboutBut
         '
         Me.AboutBut.BackColor = System.Drawing.SystemColors.ControlLightLight
@@ -75,7 +64,7 @@ Partial Class Contact_Us
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(96, 131)
+        Me.Button1.Location = New System.Drawing.Point(196, 129)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 24
@@ -139,18 +128,29 @@ Partial Class Contact_Us
         Me.Label2.TabIndex = 27
         Me.Label2.Text = "Email: thomas.clarke@dvusd.org"
         '
+        'MenuBut
+        '
+        Me.MenuBut.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.MenuBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuBut.Location = New System.Drawing.Point(107, 129)
+        Me.MenuBut.Name = "MenuBut"
+        Me.MenuBut.Size = New System.Drawing.Size(53, 23)
+        Me.MenuBut.TabIndex = 28
+        Me.MenuBut.Text = "Menu"
+        Me.MenuBut.UseVisualStyleBackColor = False
+        '
         'Contact_Us
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.MenuBut)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.ContactBut)
         Me.Controls.Add(Me.AboutBut)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox1)
@@ -168,11 +168,11 @@ Partial Class Contact_Us
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents ContactBut As Button
     Friend WithEvents AboutBut As Button
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents MenuBut As Button
 End Class

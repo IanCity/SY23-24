@@ -25,13 +25,13 @@ Partial Class Contact_Us
         Me.Label3 = New System.Windows.Forms.Label()
         Me.AboutBut = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.MenuBut = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.MenuBut = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,43 +71,6 @@ Partial Class Contact_Us
         Me.Button1.Text = "About Us"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Mexican_Restaurant.My.Resources.Resources._2
-        Me.PictureBox1.Location = New System.Drawing.Point(-2, 95)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(807, 473)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 25
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox4.Location = New System.Drawing.Point(-2, 160)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(807, 10)
-        Me.PictureBox4.TabIndex = 23
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox5.Location = New System.Drawing.Point(-2, 113)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(807, 10)
-        Me.PictureBox5.TabIndex = 22
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.BackColor = System.Drawing.Color.NavajoWhite
-        Me.PictureBox6.Location = New System.Drawing.Point(-2, -2)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(806, 168)
-        Me.PictureBox6.TabIndex = 21
-        Me.PictureBox6.TabStop = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -138,6 +101,43 @@ Partial Class Contact_Us
         Me.MenuBut.TabIndex = 28
         Me.MenuBut.Text = "Menu"
         Me.MenuBut.UseVisualStyleBackColor = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Mexican_Restaurant.My.Resources.Resources._3
+        Me.PictureBox1.Location = New System.Drawing.Point(-144, -73)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(1091, 606)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 29
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PictureBox4.Location = New System.Drawing.Point(-2, 160)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(807, 10)
+        Me.PictureBox4.TabIndex = 23
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PictureBox5.Location = New System.Drawing.Point(-2, 113)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(807, 10)
+        Me.PictureBox5.TabIndex = 22
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackColor = System.Drawing.Color.NavajoWhite
+        Me.PictureBox6.Location = New System.Drawing.Point(-2, -2)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(806, 168)
+        Me.PictureBox6.TabIndex = 21
+        Me.PictureBox6.TabStop = False
         '
         'Contact_Us
         '
@@ -171,8 +171,8 @@ Partial Class Contact_Us
     Friend WithEvents AboutBut As Button
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents MenuBut As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

@@ -32,10 +32,12 @@ Partial Class About_Us
         Me.AboutBut = New System.Windows.Forms.Button()
         Me.MenuBut = New System.Windows.Forms.Button()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label2
@@ -132,11 +134,22 @@ Partial Class About_Us
         Me.PictureBox6.TabIndex = 14
         Me.PictureBox6.TabStop = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 182)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(688, 140)
+        Me.PictureBox1.TabIndex = 17
+        Me.PictureBox1.TabStop = False
+        '
         'About_Us
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label3)
@@ -144,7 +157,6 @@ Partial Class About_Us
         Me.Controls.Add(Me.AboutBut)
         Me.Controls.Add(Me.MenuBut)
         Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox3)
         Me.Name = "About_Us"
         Me.Text = "About_Us"
@@ -152,6 +164,7 @@ Partial Class About_Us
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -165,4 +178,5 @@ Partial Class About_Us
     Friend WithEvents AboutBut As Button
     Friend WithEvents MenuBut As Button
     Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

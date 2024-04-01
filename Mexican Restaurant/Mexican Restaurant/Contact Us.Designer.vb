@@ -23,11 +23,11 @@ Partial Class Contact_Us
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.AboutBut = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.HomeButC = New System.Windows.Forms.Button()
+        Me.AboutButC = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.MenuBut = New System.Windows.Forms.Button()
+        Me.MenuButC = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
@@ -42,34 +42,34 @@ Partial Class Contact_Us
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.NavajoWhite
-        Me.Label3.Font = New System.Drawing.Font("Magneto", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(-5, 9)
+        Me.Label3.Font = New System.Drawing.Font("Magneto", 43.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(-8, 22)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(793, 92)
+        Me.Label3.Size = New System.Drawing.Size(754, 86)
         Me.Label3.TabIndex = 20
         Me.Label3.Text = "Contact Taco Casa"
         '
-        'AboutBut
+        'HomeButC
         '
-        Me.AboutBut.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.AboutBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AboutBut.Location = New System.Drawing.Point(23, 129)
-        Me.AboutBut.Name = "AboutBut"
-        Me.AboutBut.Size = New System.Drawing.Size(53, 23)
-        Me.AboutBut.TabIndex = 18
-        Me.AboutBut.Text = "Home"
-        Me.AboutBut.UseVisualStyleBackColor = False
+        Me.HomeButC.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.HomeButC.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HomeButC.Location = New System.Drawing.Point(23, 129)
+        Me.HomeButC.Name = "HomeButC"
+        Me.HomeButC.Size = New System.Drawing.Size(60, 23)
+        Me.HomeButC.TabIndex = 18
+        Me.HomeButC.Text = "Home"
+        Me.HomeButC.UseVisualStyleBackColor = False
         '
-        'Button1
+        'AboutButC
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(196, 129)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 24
-        Me.Button1.Text = "About Us"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.AboutButC.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.AboutButC.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AboutButC.Location = New System.Drawing.Point(195, 129)
+        Me.AboutButC.Name = "AboutButC"
+        Me.AboutButC.Size = New System.Drawing.Size(75, 23)
+        Me.AboutButC.TabIndex = 24
+        Me.AboutButC.Text = "About Us"
+        Me.AboutButC.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -91,16 +91,16 @@ Partial Class Contact_Us
         Me.Label2.TabIndex = 27
         Me.Label2.Text = "Email: thomas.clarke@dvusd.org"
         '
-        'MenuBut
+        'MenuButC
         '
-        Me.MenuBut.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.MenuBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuBut.Location = New System.Drawing.Point(107, 129)
-        Me.MenuBut.Name = "MenuBut"
-        Me.MenuBut.Size = New System.Drawing.Size(53, 23)
-        Me.MenuBut.TabIndex = 28
-        Me.MenuBut.Text = "Menu"
-        Me.MenuBut.UseVisualStyleBackColor = False
+        Me.MenuButC.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.MenuButC.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuButC.Location = New System.Drawing.Point(106, 129)
+        Me.MenuButC.Name = "MenuButC"
+        Me.MenuButC.Size = New System.Drawing.Size(66, 23)
+        Me.MenuButC.TabIndex = 28
+        Me.MenuButC.Text = "Menu"
+        Me.MenuButC.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
@@ -144,14 +144,14 @@ Partial Class Contact_Us
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.MenuBut)
+        Me.Controls.Add(Me.MenuButC)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.AboutButC)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.AboutBut)
+        Me.Controls.Add(Me.HomeButC)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Contact_Us"
@@ -168,11 +168,11 @@ Partial Class Contact_Us
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents AboutBut As Button
+    Friend WithEvents HomeButC As Button
     Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents AboutButC As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents MenuBut As Button
+    Friend WithEvents MenuButC As Button
     Friend WithEvents PictureBox1 As PictureBox
 End Class

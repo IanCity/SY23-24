@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Home
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Home
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.MenuBut = New System.Windows.Forms.Button()
         Me.AboutBut = New System.Windows.Forms.Button()
@@ -45,7 +45,7 @@ Partial Class Home
         Me.MenuBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuBut.Location = New System.Drawing.Point(21, 128)
         Me.MenuBut.Name = "MenuBut"
-        Me.MenuBut.Size = New System.Drawing.Size(53, 23)
+        Me.MenuBut.Size = New System.Drawing.Size(68, 23)
         Me.MenuBut.TabIndex = 0
         Me.MenuBut.Text = "Menu"
         Me.MenuBut.UseVisualStyleBackColor = False
@@ -54,7 +54,7 @@ Partial Class Home
         '
         Me.AboutBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.AboutBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AboutBut.Location = New System.Drawing.Point(95, 130)
+        Me.AboutBut.Location = New System.Drawing.Point(102, 130)
         Me.AboutBut.Name = "AboutBut"
         Me.AboutBut.Size = New System.Drawing.Size(75, 23)
         Me.AboutBut.TabIndex = 1
@@ -65,7 +65,7 @@ Partial Class Home
         '
         Me.ContactBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ContactBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ContactBut.Location = New System.Drawing.Point(191, 130)
+        Me.ContactBut.Location = New System.Drawing.Point(190, 130)
         Me.ContactBut.Name = "ContactBut"
         Me.ContactBut.Size = New System.Drawing.Size(84, 23)
         Me.ContactBut.TabIndex = 2

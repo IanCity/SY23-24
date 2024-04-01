@@ -147,10 +147,10 @@ Partial Class Menu
         Me.TextBox4.Location = New System.Drawing.Point(569, 97)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(189, 172)
+        Me.TextBox4.Size = New System.Drawing.Size(189, 152)
         Me.TextBox4.TabIndex = 8
         Me.TextBox4.Text = "Birria Tacos:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "$21.99" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Tacos filled with" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Birria Beef, cheese, cillantro," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "jala" &
-    "penos, and onions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Served with a side of Birria " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Consume"
+    "penos, and onions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Served with a side of Birria Consommé"
         '
         'ContactBut
         '

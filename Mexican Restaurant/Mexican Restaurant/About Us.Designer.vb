@@ -94,6 +94,14 @@ Partial Class About_Us
         '
         'ContactButA
         '
+        Me.ContactBut.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ContactBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ContactBut.Location = New System.Drawing.Point(161, 129)
+        Me.ContactBut.Name = "ContactBut"
+        Me.ContactBut.Size = New System.Drawing.Size(84, 23)
+        Me.ContactBut.TabIndex = 12
+        Me.ContactBut.Text = "Contact Us"
+        Me.ContactBut.UseVisualStyleBackColor = False
         Me.ContactButA.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ContactButA.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ContactButA.Location = New System.Drawing.Point(193, 131)
@@ -116,6 +124,14 @@ Partial Class About_Us
         '
         'MenuButA
         '
+        Me.MenuBut.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.MenuBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuBut.Location = New System.Drawing.Point(93, 129)
+        Me.MenuBut.Name = "MenuBut"
+        Me.MenuBut.Size = New System.Drawing.Size(53, 23)
+        Me.MenuBut.TabIndex = 10
+        Me.MenuBut.Text = "Menu"
+        Me.MenuBut.UseVisualStyleBackColor = False
         Me.MenuButA.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.MenuButA.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuButA.Location = New System.Drawing.Point(109, 129)

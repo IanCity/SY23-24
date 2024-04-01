@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Menu
     Inherits System.Windows.Forms.Form
 
@@ -39,6 +39,12 @@ Partial Class Menu
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -87,9 +93,9 @@ Partial Class Menu
         '
         Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(618, 286)
+        Me.PictureBox3.Location = New System.Drawing.Point(629, 283)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(143, 145)
+        Me.PictureBox3.Size = New System.Drawing.Size(143, 133)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
@@ -98,9 +104,9 @@ Partial Class Menu
         '
         Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(427, 21)
+        Me.PictureBox4.Location = New System.Drawing.Point(434, 81)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(143, 248)
+        Me.PictureBox4.Size = New System.Drawing.Size(143, 196)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 4
         Me.PictureBox4.TabStop = False
@@ -109,7 +115,7 @@ Partial Class Menu
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Font = New System.Drawing.Font("Mongolian Baiti", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(152, 224)
+        Me.TextBox1.Location = New System.Drawing.Point(161, 214)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
@@ -147,14 +153,16 @@ Partial Class Menu
         '
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox4.Font = New System.Drawing.Font("Mongolian Baiti", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(569, 97)
+        Me.TextBox4.Location = New System.Drawing.Point(583, 81)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(189, 152)
+        Me.TextBox4.Size = New System.Drawing.Size(189, 167)
         Me.TextBox4.TabIndex = 8
         Me.TextBox4.Text = "Birria Tacos:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "$21.99" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Tacos filled with" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Birria Beef, cheese, cillantro," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "jala" &
     "penos, and onions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Served with a side of Birria Consommé"
+    "penos, and onions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Served with a side of Birria consume"
         '
         'ContactButM
         '
@@ -166,6 +174,14 @@ Partial Class Menu
         Me.ContactButM.TabIndex = 13
         Me.ContactButM.Text = "Contact Us"
         Me.ContactButM.UseVisualStyleBackColor = False
+        Me.ContactBut.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ContactBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ContactBut.Location = New System.Drawing.Point(117, 138)
+        Me.ContactBut.Name = "ContactBut"
+        Me.ContactBut.Size = New System.Drawing.Size(79, 26)
+        Me.ContactBut.TabIndex = 13
+        Me.ContactBut.Text = "Contact Us"
+        Me.ContactBut.UseVisualStyleBackColor = False
         '
         'HomeButM
         '
@@ -188,6 +204,14 @@ Partial Class Menu
         Me.AboutButM.TabIndex = 15
         Me.AboutButM.Text = "About Us"
         Me.AboutButM.UseVisualStyleBackColor = False
+        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(202, 138)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(79, 26)
+        Me.Button1.TabIndex = 15
+        Me.Button1.Text = "About Us"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'PictureBox5
         '
@@ -201,7 +225,7 @@ Partial Class Menu
         'PictureBox6
         '
         Me.PictureBox6.BackColor = System.Drawing.Color.NavajoWhite
-        Me.PictureBox6.Location = New System.Drawing.Point(-2, -1)
+        Me.PictureBox6.Location = New System.Drawing.Point(-4, -1)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(806, 181)
         Me.PictureBox6.TabIndex = 16
@@ -226,11 +250,71 @@ Partial Class Menu
         Me.PictureBox8.TabIndex = 26
         Me.PictureBox8.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(161, 411)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(114, 27)
+        Me.Button2.TabIndex = 27
+        Me.Button2.Text = "Purchase"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(615, 250)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(114, 27)
+        Me.Button3.TabIndex = 28
+        Me.Button3.Text = "Purchase"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(294, 170)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(114, 27)
+        Me.Button4.TabIndex = 29
+        Me.Button4.Text = "Purchase"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(644, 422)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(114, 27)
+        Me.Button5.TabIndex = 30
+        Me.Button5.Text = "Purchase"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(540, 24)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(69, 29)
+        Me.Label2.TabIndex = 31
+        Me.Label2.Text = "Total:"
+        '
+        'Label3
+        '
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(615, 24)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(143, 29)
+        Me.Label3.TabIndex = 32
+        Me.Label3.Text = "Label3"
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.TextBox4)
@@ -278,4 +362,10 @@ Partial Class Menu
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class

@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Home
     Inherits System.Windows.Forms.Form
 
@@ -43,7 +43,7 @@ Partial Class Home
         '
         Me.MenuBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.MenuBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuBut.Location = New System.Drawing.Point(21, 128)
+        Me.MenuBut.Location = New System.Drawing.Point(21, 130)
         Me.MenuBut.Name = "MenuBut"
         Me.MenuBut.Size = New System.Drawing.Size(68, 23)
         Me.MenuBut.TabIndex = 0
@@ -66,6 +66,7 @@ Partial Class Home
         Me.ContactBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ContactBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ContactBut.Location = New System.Drawing.Point(190, 130)
+        Me.ContactBut.Location = New System.Drawing.Point(176, 130)
         Me.ContactBut.Name = "ContactBut"
         Me.ContactBut.Size = New System.Drawing.Size(84, 23)
         Me.ContactBut.TabIndex = 2

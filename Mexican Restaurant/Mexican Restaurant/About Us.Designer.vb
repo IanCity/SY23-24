@@ -1,9 +1,9 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class About_Us
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class About_Us
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(About_Us))
         Me.Label2 = New System.Windows.Forms.Label()
@@ -28,9 +28,9 @@ Partial Class About_Us
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ContactBut = New System.Windows.Forms.Button()
-        Me.AboutBut = New System.Windows.Forms.Button()
-        Me.MenuBut = New System.Windows.Forms.Button()
+        Me.ContactButA = New System.Windows.Forms.Button()
+        Me.HomeButA = New System.Windows.Forms.Button()
+        Me.MenuButA = New System.Windows.Forms.Button()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,14 +85,14 @@ Partial Class About_Us
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.NavajoWhite
-        Me.Label3.Font = New System.Drawing.Font("Magneto", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(8, 6)
+        Me.Label3.Font = New System.Drawing.Font("Magneto", 43.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(10, 24)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(782, 97)
+        Me.Label3.Size = New System.Drawing.Size(713, 88)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "About Taco Casa"
         '
-        'ContactBut
+        'ContactButA
         '
         Me.ContactBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ContactBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -102,19 +102,27 @@ Partial Class About_Us
         Me.ContactBut.TabIndex = 12
         Me.ContactBut.Text = "Contact Us"
         Me.ContactBut.UseVisualStyleBackColor = False
+        Me.ContactButA.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ContactButA.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ContactButA.Location = New System.Drawing.Point(193, 131)
+        Me.ContactButA.Name = "ContactButA"
+        Me.ContactButA.Size = New System.Drawing.Size(90, 23)
+        Me.ContactButA.TabIndex = 12
+        Me.ContactButA.Text = "Contact Us"
+        Me.ContactButA.UseVisualStyleBackColor = False
         '
-        'AboutBut
+        'HomeButA
         '
-        Me.AboutBut.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.AboutBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AboutBut.Location = New System.Drawing.Point(25, 129)
-        Me.AboutBut.Name = "AboutBut"
-        Me.AboutBut.Size = New System.Drawing.Size(53, 23)
-        Me.AboutBut.TabIndex = 11
-        Me.AboutBut.Text = "Home"
-        Me.AboutBut.UseVisualStyleBackColor = False
+        Me.HomeButA.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.HomeButA.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HomeButA.Location = New System.Drawing.Point(25, 129)
+        Me.HomeButA.Name = "HomeButA"
+        Me.HomeButA.Size = New System.Drawing.Size(63, 23)
+        Me.HomeButA.TabIndex = 11
+        Me.HomeButA.Text = "Home"
+        Me.HomeButA.UseVisualStyleBackColor = False
         '
-        'MenuBut
+        'MenuButA
         '
         Me.MenuBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.MenuBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -124,6 +132,14 @@ Partial Class About_Us
         Me.MenuBut.TabIndex = 10
         Me.MenuBut.Text = "Menu"
         Me.MenuBut.UseVisualStyleBackColor = False
+        Me.MenuButA.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.MenuButA.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuButA.Location = New System.Drawing.Point(109, 129)
+        Me.MenuButA.Name = "MenuButA"
+        Me.MenuButA.Size = New System.Drawing.Size(59, 23)
+        Me.MenuButA.TabIndex = 10
+        Me.MenuButA.Text = "Menu"
+        Me.MenuButA.UseVisualStyleBackColor = False
         '
         'PictureBox6
         '
@@ -153,9 +169,9 @@ Partial Class About_Us
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.ContactBut)
-        Me.Controls.Add(Me.AboutBut)
-        Me.Controls.Add(Me.MenuBut)
+        Me.Controls.Add(Me.ContactButA)
+        Me.Controls.Add(Me.HomeButA)
+        Me.Controls.Add(Me.MenuButA)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox3)
         Me.Name = "About_Us"
@@ -174,9 +190,9 @@ Partial Class About_Us
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents ContactBut As Button
-    Friend WithEvents AboutBut As Button
-    Friend WithEvents MenuBut As Button
+    Friend WithEvents ContactButA As Button
+    Friend WithEvents HomeButA As Button
+    Friend WithEvents MenuButA As Button
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
 End Class

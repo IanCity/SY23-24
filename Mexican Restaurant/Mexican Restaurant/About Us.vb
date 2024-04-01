@@ -1,21 +1,22 @@
 Public Class About_Us
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
-
+    Private Sub HomeButA_Click(sender As Object, e As EventArgs) Handles HomeButA.Click
+        Me.Hide()
+        Dim f2 As New Home
+        f2.ShowDialog()
+        Me.Show()
     End Sub
 
-    Private Sub ContactBut_Click(sender As Object, e As EventArgs) Handles ContactBut.Click
-
+    Private Sub MenuButA_Click(sender As Object, e As EventArgs) Handles MenuButA.Click
+        Me.Hide()
+        Dim f2 As New Menu
+        f2.ShowDialog()
+        Me.Show()
     End Sub
 
-    Private Sub AboutBut_Click(sender As Object, e As EventArgs) Handles AboutBut.Click
-
-    End Sub
-
-    Private Sub MenuBut_Click(sender As Object, e As EventArgs) Handles MenuBut.Click
-
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
+    Private Sub ContactButA_Click(sender As Object, e As EventArgs) Handles ContactButA.Click
+        Me.Hide()
+        Dim f2 As New Contact_Us
+        f2.ShowDialog()
+        Me.Show()
     End Sub
 End Class

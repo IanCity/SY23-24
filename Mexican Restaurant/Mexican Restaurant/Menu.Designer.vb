@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Menu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Menu
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Menu))
         Me.Label1 = New System.Windows.Forms.Label()
@@ -32,9 +32,9 @@ Partial Class Menu
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.ContactBut = New System.Windows.Forms.Button()
-        Me.AboutBut = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ContactButM = New System.Windows.Forms.Button()
+        Me.HomeButM = New System.Windows.Forms.Button()
+        Me.AboutButM = New System.Windows.Forms.Button()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
@@ -118,6 +118,7 @@ Partial Class Menu
         Me.TextBox1.Location = New System.Drawing.Point(161, 214)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(114, 191)
         Me.TextBox1.TabIndex = 5
         Me.TextBox1.Text = "Carne Asada:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "$19.99" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Skirt Steak seared" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to perfections" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Options:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Well done" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Me" &
@@ -130,6 +131,7 @@ Partial Class Menu
         Me.TextBox2.Location = New System.Drawing.Point(281, 203)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(132, 94)
         Me.TextBox2.TabIndex = 6
         Me.TextBox2.Text = "Horchata:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "$4.99" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A mixture of rice" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "water, and cinnamon"
@@ -141,6 +143,7 @@ Partial Class Menu
         Me.TextBox3.Location = New System.Drawing.Point(460, 283)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
         Me.TextBox3.Size = New System.Drawing.Size(163, 163)
         Me.TextBox3.TabIndex = 7
         Me.TextBox3.Text = "Chicken Quesadillas:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "$15.99" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Chicken cheese stuffed " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Quesadillas served with" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "a" &
@@ -157,6 +160,12 @@ Partial Class Menu
         Me.TextBox4.Size = New System.Drawing.Size(189, 167)
         Me.TextBox4.TabIndex = 8
         Me.TextBox4.Text = "Birria Tacos:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "$21.99" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Tacos filled with" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Birria Beef, cheese, cillantro," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "jala" &
+        Me.TextBox4.ReadOnly = True
+        Me.TextBox4.Size = New System.Drawing.Size(189, 152)
+        Me.TextBox4.Size = New System.Drawing.Size(189, 167)
+        Me.TextBox4.TabIndex = 8
+        Me.TextBox4.Text = "Birria Tacos:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "$21.99" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "5 Tacos filled with" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Birria Beef, cheese, cillantro," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "jala" &
+    "penos, and onions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Served with a side of Birria Consommé"
     "penos, and onions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Served with a side of Birria consume"
 =======
         Me.TextBox4.Size = New System.Drawing.Size(189, 152)
@@ -165,8 +174,16 @@ Partial Class Menu
     "penos, and onions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Served with a side of Birria Consommé"
 >>>>>>> main
         '
-        'ContactBut
+        'ContactButM
         '
+        Me.ContactButM.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ContactButM.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ContactButM.Location = New System.Drawing.Point(130, 137)
+        Me.ContactButM.Name = "ContactButM"
+        Me.ContactButM.Size = New System.Drawing.Size(79, 26)
+        Me.ContactButM.TabIndex = 13
+        Me.ContactButM.Text = "Contact Us"
+        Me.ContactButM.UseVisualStyleBackColor = False
         Me.ContactBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ContactBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ContactBut.Location = New System.Drawing.Point(117, 138)
@@ -176,19 +193,27 @@ Partial Class Menu
         Me.ContactBut.Text = "Contact Us"
         Me.ContactBut.UseVisualStyleBackColor = False
         '
-        'AboutBut
+        'HomeButM
         '
-        Me.AboutBut.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.AboutBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AboutBut.Location = New System.Drawing.Point(32, 137)
-        Me.AboutBut.Name = "AboutBut"
-        Me.AboutBut.Size = New System.Drawing.Size(79, 26)
-        Me.AboutBut.TabIndex = 14
-        Me.AboutBut.Text = "Home"
-        Me.AboutBut.UseVisualStyleBackColor = False
+        Me.HomeButM.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.HomeButM.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HomeButM.Location = New System.Drawing.Point(32, 137)
+        Me.HomeButM.Name = "HomeButM"
+        Me.HomeButM.Size = New System.Drawing.Size(79, 26)
+        Me.HomeButM.TabIndex = 14
+        Me.HomeButM.Text = "Home"
+        Me.HomeButM.UseVisualStyleBackColor = False
         '
-        'Button1
+        'AboutButM
         '
+        Me.AboutButM.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.AboutButM.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AboutButM.Location = New System.Drawing.Point(228, 137)
+        Me.AboutButM.Name = "AboutButM"
+        Me.AboutButM.Size = New System.Drawing.Size(79, 26)
+        Me.AboutButM.TabIndex = 15
+        Me.AboutButM.Text = "About Us"
+        Me.AboutButM.UseVisualStyleBackColor = False
         Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(202, 138)
@@ -306,9 +331,9 @@ Partial Class Menu
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.AboutBut)
-        Me.Controls.Add(Me.ContactBut)
+        Me.Controls.Add(Me.AboutButM)
+        Me.Controls.Add(Me.HomeButM)
+        Me.Controls.Add(Me.ContactButM)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.PictureBox3)
@@ -340,9 +365,9 @@ Partial Class Menu
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents ContactBut As Button
-    Friend WithEvents AboutBut As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ContactButM As Button
+    Friend WithEvents HomeButM As Button
+    Friend WithEvents AboutButM As Button
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox

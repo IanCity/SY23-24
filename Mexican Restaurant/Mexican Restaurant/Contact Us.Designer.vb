@@ -64,7 +64,7 @@ Partial Class Contact_Us
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(196, 129)
+        Me.Button1.Location = New System.Drawing.Point(170, 129)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 24
@@ -95,7 +95,7 @@ Partial Class Contact_Us
         '
         Me.MenuBut.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.MenuBut.Font = New System.Drawing.Font("Mongolian Baiti", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuBut.Location = New System.Drawing.Point(107, 129)
+        Me.MenuBut.Location = New System.Drawing.Point(96, 129)
         Me.MenuBut.Name = "MenuBut"
         Me.MenuBut.Size = New System.Drawing.Size(53, 23)
         Me.MenuBut.TabIndex = 28

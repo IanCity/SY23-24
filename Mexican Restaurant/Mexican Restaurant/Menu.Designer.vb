@@ -39,12 +39,22 @@ Partial Class Menu
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+<<<<<<< Updated upstream
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+=======
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+>>>>>>> Stashed changes
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -95,7 +105,11 @@ Partial Class Menu
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(629, 283)
         Me.PictureBox3.Name = "PictureBox3"
+<<<<<<< Updated upstream
         Me.PictureBox3.Size = New System.Drawing.Size(143, 133)
+=======
+        Me.PictureBox3.Size = New System.Drawing.Size(143, 131)
+>>>>>>> Stashed changes
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
@@ -104,9 +118,15 @@ Partial Class Menu
         '
         Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+<<<<<<< Updated upstream
         Me.PictureBox4.Location = New System.Drawing.Point(434, 81)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(143, 196)
+=======
+        Me.PictureBox4.Location = New System.Drawing.Point(427, 81)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(143, 188)
+>>>>>>> Stashed changes
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 4
         Me.PictureBox4.TabStop = False
@@ -115,7 +135,11 @@ Partial Class Menu
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Font = New System.Drawing.Font("Mongolian Baiti", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< Updated upstream
         Me.TextBox1.Location = New System.Drawing.Point(161, 214)
+=======
+        Me.TextBox1.Location = New System.Drawing.Point(161, 223)
+>>>>>>> Stashed changes
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
@@ -153,7 +177,11 @@ Partial Class Menu
         '
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox4.Font = New System.Drawing.Font("Mongolian Baiti", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< Updated upstream
         Me.TextBox4.Location = New System.Drawing.Point(583, 81)
+=======
+        Me.TextBox4.Location = New System.Drawing.Point(572, 81)
+>>>>>>> Stashed changes
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
 <<<<<<< HEAD
@@ -260,26 +288,52 @@ Partial Class Menu
         Me.PictureBox8.TabIndex = 26
         Me.PictureBox8.TabStop = False
         '
+<<<<<<< Updated upstream
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(161, 411)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(114, 27)
         Me.Button2.TabIndex = 27
+=======
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(179, 415)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 27
+        Me.Button1.Text = "Purchase"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(309, 174)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 28
+>>>>>>> Stashed changes
         Me.Button2.Text = "Purchase"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
+<<<<<<< Updated upstream
         Me.Button3.Location = New System.Drawing.Point(615, 250)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(114, 27)
         Me.Button3.TabIndex = 28
+=======
+        Me.Button3.Location = New System.Drawing.Point(618, 239)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 29
+>>>>>>> Stashed changes
         Me.Button3.Text = "Purchase"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
+<<<<<<< Updated upstream
         Me.Button4.Location = New System.Drawing.Point(294, 170)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(114, 27)
@@ -302,11 +356,28 @@ Partial Class Menu
         Me.Label2.Location = New System.Drawing.Point(540, 24)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 29)
+=======
+        Me.Button4.Location = New System.Drawing.Point(655, 423)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 30
+        Me.Button4.Text = "Purchase"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Mongolian Baiti", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(455, 23)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(59, 21)
+>>>>>>> Stashed changes
         Me.Label2.TabIndex = 31
         Me.Label2.Text = "Total:"
         '
         'Label3
         '
+<<<<<<< Updated upstream
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(615, 24)
         Me.Label3.Name = "Label3"
@@ -314,17 +385,46 @@ Partial Class Menu
         Me.Label3.TabIndex = 32
         Me.Label3.Text = "Label3"
         '
+=======
+        Me.Label3.AllowDrop = True
+        Me.Label3.Font = New System.Drawing.Font("Mongolian Baiti", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(523, 23)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(141, 23)
+        Me.Label3.TabIndex = 32
+        Me.Label3.Text = "Label3"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(482, 51)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(88, 23)
+        Me.Button5.TabIndex = 33
+        Me.Button5.Text = "Check Out"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+>>>>>>> Stashed changes
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+<<<<<<< Updated upstream
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
+=======
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+>>>>>>> Stashed changes
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.TextBox4)
@@ -372,10 +472,20 @@ Partial Class Menu
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
+<<<<<<< Updated upstream
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+=======
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button5 As Button
+>>>>>>> Stashed changes
 End Class
